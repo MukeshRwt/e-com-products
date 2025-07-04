@@ -24,7 +24,7 @@ const Navbar = () => {
           </div>
         </Link>
 
-        <Link href="/" className="px-8 border-2 border-white py-1 rounded-full ">
+        <Link href="/add-product" className="px-8 border-2 border-white py-1 rounded-full ">
           Add Product
         </Link>
       </div>

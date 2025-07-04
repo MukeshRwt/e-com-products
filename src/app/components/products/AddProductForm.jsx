@@ -1,6 +1,7 @@
-import { useForm } from "react-hook-form";
-import z, { ZodDate } from "zod";
+"use client";
+import z from "zod";
 import { zodResolver } from "@hookform/resolvers/zod";
+import { useForm } from "react-hook-form";
 const productSchema = z.object({
   title: z.string().min(3, "Title is required"),
   price: z.number().positive("Price must be a number > 0"),
@@ -43,9 +44,10 @@ const AddProductForm = () => {
         <input
           type="number"
           step="0.01"
-          {...register("price")}
+          {...register("price", { valueAsNumber: true })}
           className="w-full border px-3 py-2 rounded"
         />
+
         {errors.price && <p className="text-red-500 text-sm">{errors.price.message}</p>}
       </div>
 
