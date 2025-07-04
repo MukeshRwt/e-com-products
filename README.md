@@ -2,6 +2,8 @@
 
 This is a responsive e-commerce product listing app built with **Next.js**, **Zustand** for global state management, **React Query** for data fetching, **Tailwind CSS** for styling, and **React Hook Form + Zod** for form handling and validation.
 
+ 🔗 [View Live Site] https://github.com/MukeshRwt/e-com-products
+
 ## 🚀 Features
 
 - 📦 Product Display in grid view
@@ -18,13 +20,12 @@ This is a responsive e-commerce product listing app built with **Next.js**, **Zu
 ---
 
 ## 🧪 Tech Stack
-
-- **Framework**: [Next.js](https://nextjs.org/)
-- **State Management**: [Zustand](https://github.com/pmndrs/zustand)
-- **Data Fetching**: [React Query](https://tanstack.com/query/latest)
-- **Forms**: [React Hook Form](https://react-hook-form.com/) + [Zod](https://zod.dev/)
-- **Styling**: [Tailwind CSS](https://tailwindcss.com/)
-- **Icons**: [Font Awesome](https://fontawesome.com/)
+- Next.js
+- Tailwind CSS
+- Zustand
+- React Hook Form + Zod
+- React Query
+- Fake Store API
 
 ---
 
