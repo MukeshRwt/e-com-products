@@ -2,7 +2,7 @@
 
 This is a responsive e-commerce product listing app built with **Next.js**, **Zustand** for global state management, **React Query** for data fetching, **Tailwind CSS** for styling, and **React Hook Form + Zod** for form handling and validation.
 
- 🔗 [View Live Site] https://github.com/MukeshRwt/e-com-products
+ 🔗 [View Live Site] (https://e-com-pdt.netlify.app/)
 
 ## 🚀 Features
 
