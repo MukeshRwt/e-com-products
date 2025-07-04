@@ -1,36 +1,39 @@
-This is a [Next.js](https://nextjs.org) project bootstrapped with [`create-next-app`](https://github.com/vercel/next.js/tree/canary/packages/create-next-app).
+# 🛍️ E-Commerce Product Listing App
 
-## Getting Started
+This is a responsive e-commerce product listing app built with **Next.js**, **Zustand** for global state management, **React Query** for data fetching, **Tailwind CSS** for styling, and **React Hook Form + Zod** for form handling and validation.
 
-First, run the development server:
+## 🚀 Features
 
-```bash
-npm run dev
-# or
-yarn dev
-# or
-pnpm dev
-# or
-bun dev
-```
+- 📦 Product Display in grid view
+- 🔍 Search products by name (client-side)
+- 🧩 Filter products by category
+- 🛒 Add to Cart functionality using Zustand
+- 📋 Add Product Form (mock submission)
+- 🧾 Product Detail Modal
+- 🌀 Global state management with Zustand
+- ⚡ Data fetching with React Query
+- 🎨 Tailwind CSS for styling
+- ✅ Form validation with Zod
 
-Open [http://localhost:3000](http://localhost:3000) with your browser to see the result.
+---
 
-You can start editing the page by modifying `app/page.js`. The page auto-updates as you edit the file.
+## 🧪 Tech Stack
 
-This project uses [`next/font`](https://nextjs.org/docs/app/building-your-application/optimizing/fonts) to automatically optimize and load [Geist](https://vercel.com/font), a new font family for Vercel.
+- **Framework**: [Next.js](https://nextjs.org/)
+- **State Management**: [Zustand](https://github.com/pmndrs/zustand)
+- **Data Fetching**: [React Query](https://tanstack.com/query/latest)
+- **Forms**: [React Hook Form](https://react-hook-form.com/) + [Zod](https://zod.dev/)
+- **Styling**: [Tailwind CSS](https://tailwindcss.com/)
+- **Icons**: [Font Awesome](https://fontawesome.com/)
 
-## Learn More
+---
 
-To learn more about Next.js, take a look at the following resources:
+## 🔗 API Used
 
-- [Next.js Documentation](https://nextjs.org/docs) - learn about Next.js features and API.
-- [Learn Next.js](https://nextjs.org/learn) - an interactive Next.js tutorial.
+- [Fake Store API](https://fakestoreapi.com/)
+  - Get all products: `https://fakestoreapi.com/products`
+  - Get categories: `https://fakestoreapi.com/products/categories`
+  - Get by category: `/products/category/{category}`
+  - Get product by ID: `/products/{id}`
 
-You can check out [the Next.js GitHub repository](https://github.com/vercel/next.js) - your feedback and contributions are welcome!
-
-## Deploy on Vercel
-
-The easiest way to deploy your Next.js app is to use the [Vercel Platform](https://vercel.com/new?utm_medium=default-template&filter=next.js&utm_source=create-next-app&utm_campaign=create-next-app-readme) from the creators of Next.js.
-
-Check out our [Next.js deployment documentation](https://nextjs.org/docs/app/building-your-application/deploying) for more details.
+---
